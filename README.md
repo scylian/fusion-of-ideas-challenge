@@ -63,7 +63,7 @@ This code also restricts users to only Add/Edit/Delete one entry at a time,
 but can be scaled out to include INNER and OUTER JOINS allowing for multiple rows
 and tables to be queried.
 
-I also assumed that each table's *id* would be a primary key and thus un-editable.
+I also assumed that each table's **id** would be a primary key and thus un-editable.
 
 Lastly, I did not restrict users from adding Sections and Links that were not related
 to a parent entity.
