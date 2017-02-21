@@ -7,9 +7,9 @@
   class DB {
     // Replace with local database credentials
     private $dbHost     = "localhost";
-    private $dbUsername = "xiily";
-    private $dbPassword = "";
-    private $dbName     = "c9";
+    private $dbUsername = "username";
+    private $dbPassword = "password";
+    private $dbName     = "table";
     
     public function __construct() {
       if (!isset($this->db)) {
